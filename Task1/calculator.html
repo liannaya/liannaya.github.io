@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+  <script>
+
+    function calculator(str) {
+    
+      	var methods = {
+        	"-": function(a, b) { return a - b },
+        	"+": function(a, b) { return a + b },
+        	"/": function(a, b) { return a / b },
+        	"*": function(a, b) { return a * b },
+			"%": function(a, b) { return a % b }
+      	};
+
+      	var split = str.split(' ');
+        var a = +split[0];
+        var operator = split[1];
+        var b = +split[2];
+    
+       
+		return methods[operator](a, b);
+        
+
+
+    }
+
+    console.log( calculator('30 + true') );
+    console.log( calculator('30 / 30') );
+    console.log( calculator('30 * liza') );
+    console.log( calculator('30 - 30') );
+	console.log( calculator('33 % 30') );
+
+  </script>
+
+</body>
+</html>
