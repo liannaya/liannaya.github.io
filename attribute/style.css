@@ -1,0 +1,31 @@
+body, section, side, footer, h1, h2 { margin: 0; padding: 0; }
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	padding: 15px 0;
+	background: #FFEFD5;
+}
+header {
+	height: 100px;
+}
+header h1 {
+	float: left;
+	width: 50%;
+}
+header nav {
+	float: right;
+	width: 50%;
+}
+section {
+	width: 600px;
+	float: left;
+}
+side {
+	width: 300px;
+}
+
+ul li {
+	display: inline; 
+	padding: 10px 15px;
+}
