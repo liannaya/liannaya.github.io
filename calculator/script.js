@@ -25,4 +25,3 @@ console.log( div(30, 30) );
 console.log( intDiv(33,30) );
 console.log( intDiv(33) );
 console.log( intDiv() );
-
